@@ -1,0 +1,323 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font:1em "quicksand" sans-serif;
+
+}
+
+@media (min-width: 992px) {
+	.container{
+		width:750px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container{
+		width:750px;
+	}
+}
+
+.relative{
+	position: relative;
+}
+
+/* home page starts here */
+
+#home {
+	background-size:cover;
+	background-position:center;
+	background-image:url("../images/treetalk/homeBackground.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	padding-top:120px;
+	padding-bottom:100px;
+}
+
+#home img{
+	margin-left:50px;
+	height:479.5px;
+	width:257.5px;
+}
+
+#home h1{
+	display:block;
+	color:white;
+	margin-left:20px;
+	margin-top:100px;
+	width:400px;
+	font-size: 3.3em
+}
+
+a.downloadButton, a.downloadButton:active {
+	text-decoration: none;
+	float:left;
+	margin-left:35px;
+	margin-top:30px;
+	padding-top:18px;
+	display:block;
+	height:59px;
+	width:155px;
+	border-radius:10px;
+	background-color:#023b3e;
+	color:white;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+a.downloadButton:hover {
+	background-color:#1cbcc6;
+	transition:0.5s;
+	text-decoration: none;
+}
+
+a.learnButton, a.learnButton:active {
+	text-decoration: none;
+	float:left;
+	margin-top:30px;
+	margin-left:15px;
+	padding-top:16px;
+	display:block;
+	height:59px;
+	width:155px;
+	border-style: solid;
+	border-radius:10px;
+	border-color: white;
+	border-width: 2px;
+	color:white;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+a.learnButton:hover {
+	background-color:#498691;
+	transition:0.5s;
+	text-decoration: none;
+}
+
+/* intro page starts here */
+
+div.introTitle {
+	display:block;
+	height:80px;
+	background-color:black;
+	color:white;
+	font-size: 2em;
+	padding-top:20px;
+	text-align: center;
+}
+
+#intro {
+	background-size:cover;
+	background-image:url("../images/treetalk/introBackground.jpg");
+	background-attachment: fixed;
+	height:755px;
+}
+
+#intro div.introText {
+	margin-top: 150px;
+	margin-left:-150px;
+	text-align: center;
+	height:514px;
+	width:514px;
+	border-radius:50%;
+	background-color: black;
+	color:white;
+	padding-top:100px;
+	padding-left:80px;
+	padding-right:80px;
+}
+
+.introText p {
+	font-size: 1.1em;
+	margin-top:40px;
+	text-indent: 20px;
+	line-height: 20px;
+}
+
+/* rule page starts here */
+
+#rule {
+	background-color:#164d4e;
+	padding-top:50px;
+	padding-bottom: 200px;
+	z-index: 10;
+}
+
+#rule h1 {
+	color:white;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+#rule .mask {
+	position:absolute;
+	margin-left: -50px;
+	margin-top: -290px;
+	height: 298px;
+	width: 396px;
+	background-color: #164d4e;
+	z-index: 20;
+}
+
+#rule img {
+	margin-left: -50px;
+	height:140%;
+	width:140%;
+}
+
+#rule p {
+	color:white;
+	margin-top: 100px;
+	font-size: 1.3em;
+}
+
+/* interface page starts here */
+
+#interface {
+
+}
+
+.interface {
+	background-image:url("../images/treetalk/interface.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	height:500px;
+	z-index: -1;
+	padding-top:200px;
+}
+
+#interface h1 {
+	color:white;
+	text-align: center;
+}
+
+#interface h2 {
+	opacity:0.2;
+	color:white;
+	font-size: 6em;
+	text-align: center;
+}
+
+/* app page starts here */
+
+#app {
+	background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dee7d6,#aac3b5); /* Standard syntax */
+}
+.iphone{
+	position: absolute;
+	width: 207px;
+	height: 416px;
+	top:100px;
+	right:80px;
+}
+.iphone img {
+	height:436px; 
+	width:207px;
+	position: absolute;
+}
+
+img.iphone_sapling {
+	z-index: 60;
+}
+
+img.iphone_littletree {
+	z-index: 50;
+}
+
+img.iphone_bigtree {
+	z-index: 40;
+}
+
+img.iphone_night {
+	z-index: 30;
+}
+
+img.iphone_rain {
+	z-index: 20;
+}
+
+img.iphone_textbox {
+	z-index: 10;
+}
+
+img.shadow {
+	height: 60px;
+	width: 235px;
+	z-index: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -117px;
+}
+
+div.begin, div.then, div.final, div.daytime, div.weather, div.textbox {
+	color:#295160;
+	font-size: 1.4em;
+	margin-top:250px;
+	margin-bottom:400px;
+	margin-left: 60px;
+}
+
+/* download page starts here */
+
+#download {
+	background-image: url("../images/treetalk/downloadBackground.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height:360px;
+}
+
+/* footer page starts here */
+
+#footer {
+	background-color:#1e2a2e;
+	height:400px;
+}
+
+#footer img {
+	margin-top:-450px;
+	height:698px;
+	width:309.5px;
+}
+
+#footer h1 {
+	color:white;
+}
+
+.footer a {
+	color:inherit;
+	text-decoration:none;
+}
+
+a.footerButton, a.footerButton:active {
+	text-decoration: none;
+	float:left;
+	margin-top:15px;
+	padding-top:12px;
+	display:block;
+	height:49px;
+	width:300px;
+	border-radius:10px;
+	background-color:#1cbcc6;
+	color:white;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+a.footerButton:hover {
+	background-color:#30bd6f;
+	transition:0.5s;
+	text-decoration: none;
+}
+
+.footer {
+	margin-top:50px;
+}
+.footer .row{
+	text-decoration:none;
+	color:white;
+	text-align: center;
+}
